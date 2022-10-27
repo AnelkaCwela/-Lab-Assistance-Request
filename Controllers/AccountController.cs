@@ -408,7 +408,7 @@ namespace SI_Request.Controllers
             smtp.Port = 587;
             smtp.UseDefaultCredentials = false;
             smtp.EnableSsl = true;
-            smtp.Credentials = new System.Net.NetworkCredential("noreplay.eprescription@gmail.com", "rfqjhujrdlktdtka");
+            smtp.Credentials = new System.Net.NetworkCredential("noreplay.eprescription@gmail.com", "**********");
             smtp.SendMailAsync(Mail);
 
         }
