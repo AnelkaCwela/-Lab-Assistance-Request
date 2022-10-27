@@ -1,0 +1,58 @@
+﻿@model RequestBindDataModel
+@{
+    ViewData["Title"] = "Request Form";
+}
+<h4 class="text-center">Request Form</h4>
+<hr />
+<form asp-action="Index" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="row mb-4">
+        <div class="col">
+            <div class="form-outline">
+                <label class="form-label" for="form3Example1">Request Description</label>
+                <input asp-for="RequestDescription" placeholder="Request Description" required id="form3Example1" class="form-control" />
+
+                <span asp-validation-for="RequestDescription" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <!-- Email input -->
+    <div class="dropdown">
+        <label class="form-label" for="form3Example3">Module</label>
+        <span> <select required asp-for="ModuleId" id="DoctorSpecializationId" class="dropdown-item alert alert-primary small" asp-items=" ViewBag.ModuleId"></select></span>
+        <span asp-validation-for="ModuleId" class="text-danger"></span>
+
+    </div>
+    <div class="dropdown">
+        <label class="form-label" for="form3Example3">Room</label>
+        <span> <select required asp-for="RoomId" id="RoomId" class="dropdown-item alert alert-primary small" asp-items=" ViewBag.RoomId"></select></span>
+        <span asp-validation-for="RoomId" class="text-danger"></span>
+
+    </div>
+    <div class="dropdown">
+        <label class="form-label" for="form3Example3">Computer</label>
+        <span>
+            <select required asp-for="ComputerId" id="ComputerId" class="dropdown-item alert alert-primary small" asp-items="@(new SelectList(string.Empty,"Value","Text"))">
+            </select>
+        </span>
+            <span asp-validation-for="ComputerId" class="text-danger">Refresh Room Select List</span>
+    </div>
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-block mb-4">Next</button>
+</form>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script type="text/javascript">
+        $(document).ready(function () {
+            $('#RoomId').change(function () {
+                var ddlsourse = "#RoomId";
+                $.getJSON("/Home/GetById", {id: $(ddlsourse).val() }, function (data) {
+                    var items = '';
+                    $("#ComputerId").empty();
+                    $.each(data, function (i, Cate) {
+                        items += "<option value=" + Cate.value + ">" + Cate.text + "</option>";
+                    });
+                    $('#ComputerId').html(items);
+                });
+            });
+       });
+</script>

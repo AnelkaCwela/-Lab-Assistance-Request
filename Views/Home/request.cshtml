@@ -1,0 +1,99 @@
+﻿@model IEnumerable<ModuleAssgnModel>
+@{
+    ViewData["Title"] = "Request";
+}
+<h4 class="text-center">Request List</h4>
+<hr />
+<div class="col-lg-8">
+    <div class="card mb-4">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="mb-0">Request Description</p>
+                </div>
+                <div class="col-sm-9">
+                    <p class="text-muted mb-0">@ViewBag.RequestDescription </p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="mb-0">Module</p>
+                </div>
+                <div class="col-sm-9">
+                    <p class="text-muted mb-0">@ViewBag.ModuleName</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="mb-0">Computer Number</p>
+                </div>
+                <div class="col-sm-9">
+                    <p class="text-muted mb-0">@ViewBag.ComputerNo</p>
+                </div>
+            </div>
+            <hr>
+
+        </div>
+    </div>
+</div>
+@if (Model.Any())
+{
+    <table class="table align-middle mb-0 bg-white">
+        <thead class="bg-light">
+            <tr>
+                <th>Id</th>
+                <th>Day Of Week</th>
+                <th>Start Time</th>
+                <th>End Time</th>
+
+                <th></th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var dat in Model)
+            {
+            <tr>
+                <td>
+                    <p class="fw-normal mb-1">@dat.ModuleAssgnId</p>
+                </td>
+                <td>
+                    <p class="fw-normal mb-1">@dat.DayOfWeek</p>
+                </td>
+                <td>
+                    <p class="fw-normal mb-1">@dat.StartTime.ToString("HH:mm")</p>
+                </td>
+                <td>
+                    <p class="fw-normal mb-1">@dat.EndTime.ToString("HH:mm")</p>
+                </td>
+
+                <td>
+                    <form asp-action="request" method="post">
+                        <input type="hidden" name="RequestDescription" value="@ViewBag.RequestDescription" />
+                        <input type="hidden" name="ModuleId" value="@ViewBag.ModuleId" />
+                        <input type="hidden" name="ComputerId" value="@ViewBag.ComputerId" />
+                        <input type="hidden" name="StudentAssistanceId" value="@dat.StudentAssistanceId" />
+                        <input type="submit" value="Request" />
+                    </form>
+
+                </td>
+
+            </tr>
+            }
+
+
+
+        </tbody>
+
+
+    </table>
+}
+else
+{
+    <div class="card">
+        <div class="card-body">The is no available assistance for this module in this time</div>
+    </div>
+}

@@ -1,0 +1,26 @@
+﻿@model TaskCategoryModel
+@{
+    ViewData["Title"] = "Register Task Category";
+}
+<h4 class="text-center">Register Task Category</h4>
+<hr />
+@if (ViewBag.Data != null)
+{
+    <h4 class="text-center alert alert-success alert-heading">@ViewBag.Data</h4>
+}
+<form asp-action="CreateCategory" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="row mb-4">
+        <div class="col">
+            <div class="form-outline">
+                <label class="form-label" for="form3Example1">Module Name</label>
+                <input asp-for="TaskCategory" placeholder="Task Category" required id="form3Example1" class="form-control" />
+
+                <span asp-validation-for="TaskCategory" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-block mb-4">Submit</button>
+</form>
+

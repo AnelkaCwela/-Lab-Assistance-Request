@@ -1,0 +1,112 @@
+﻿@model IEnumerable<ViewTaskModel>
+@{
+    ViewData["Title"] = "Assigned Task";
+}
+<h4 class="text-center">Assigned Tasks</h4>
+<hr />
+<div class="col-lg-8">
+    <div class="card mb-4">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="mb-0">Full Name</p>
+                </div>
+                <div class="col-sm-9">
+                    <p class="text-muted mb-0">@ViewBag.FName  @ViewBag.LName</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="mb-0">Email</p>
+                </div>
+                <div class="col-sm-9">
+                    <p class="text-muted mb-0">@ViewBag.Email</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="mb-0">Staff Number</p>
+                </div>
+                <div class="col-sm-9">
+                    <p class="text-muted mb-0">@ViewBag.Staff</p>
+                </div>
+            </div>
+            <hr>
+
+        </div>
+    </div>
+</div>
+@if (Model.Any())
+{
+    <table class="table align-middle mb-0 bg-white">
+        <thead class="bg-light">
+            <tr>
+                <th>Module</th>
+                <th>Day Of Week</th>
+                <th>Start Time</th>
+                <th>End Time</th>
+                <th>Status</th>
+                <th></th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var dat in Model)
+            {
+            <tr>
+                <td>
+                    <p class="fw-normal mb-1">@dat.ModuleModel.ModuleName</p>
+                </td>
+                <td>
+                    <p class="fw-normal mb-1">@dat.moduleAssgnModel.DayOfWeek</p>
+                </td>
+                <td>
+                    <p class="fw-normal mb-1">@dat.moduleAssgnModel.StartTime.ToString("HH:mm")</p>
+                </td>
+                <td>
+                    <p class="fw-normal mb-1">@dat.moduleAssgnModel.EndTime.ToString("HH:mm")</p>
+                </td>
+                @if (dat.moduleAssgnModel.Statuse == true)
+                {
+                    <td>
+                        <span class="badge badge-success rounded-pill d-inline">Active</span>
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        <span class="badge badge-danger rounded-pill d-inline">In Active</span>
+                    </td>
+                }
+                @if (dat.moduleAssgnModel.Statuse == true)
+                {
+                    <td>
+                        <a asp-route-Id="@dat.moduleAssgnModel.ModuleAssgnId"  asp-route-i="@ViewBag.Id" asp-action="Statuse" asp-route-statuse="@dat.moduleAssgnModel.Statuse" asp-controller="Admin" class="btn btn-danger btn-sm">De-Active</a>
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        <a asp-route-Id="@dat.moduleAssgnModel.ModuleAssgnId" asp-route-i="@ViewBag.Id" asp-action="Statuse" asp-route-statuse="@dat.moduleAssgnModel.Statuse" asp-controller="Admin" class="btn btn-info btn-sm">Active</a>
+                    </td>
+                }
+
+            </tr>
+            }
+
+
+
+        </tbody>
+
+
+    </table>
+}
+else
+{
+    <div class="card">
+        <div class="card-body">The is no data to show</div>
+    </div>
+}

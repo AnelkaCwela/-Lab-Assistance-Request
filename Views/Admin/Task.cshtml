@@ -1,0 +1,93 @@
+﻿@model ModuleAssgnModel
+@{
+    ViewData["Title"] = "Assign Module";
+}
+<h4 class="text-center">Assign Module</h4>
+<hr />
+@if (ViewBag.Data != null)
+{
+    <h4 class="text-center alert alert-success alert-heading"> @ViewBag.Data</h4>
+}
+<div class="col-lg-8">
+    <div class="card mb-4">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="mb-0">Full Name</p>
+                </div>
+                <div class="col-sm-9">
+                    <p class="text-muted mb-0">@ViewBag.FName  @ViewBag.LName</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="mb-0">Email</p>
+                </div>
+                <div class="col-sm-9">
+                    <p class="text-muted mb-0">@ViewBag.Email</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-3">
+                    <p class="mb-0">Staff Number</p>
+                </div>
+                <div class="col-sm-9">
+                    <p class="text-muted mb-0">@ViewBag.Staff</p>
+                </div>
+            </div>
+            <hr>
+
+        </div>
+    </div>
+</div>
+    <form asp-action="Task" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="StudentAssistanceId" />
+        <div class="row mb-4">
+            <div class="col">
+                <div class="form-outline">
+                    <label class="form-label" for="form3Example1">Week day</label>
+                    <span>
+                        <select required asp-for="DayOfWeek" class="dropdown-item alert alert-primary small">
+                            <option value="Sunday">Sunday</option>
+                            <option value="Monday">Monday</option>
+                            <option value="Tuesday">Tuesday</option>
+                            <option value="Wednesday">Wednesday</option>
+                            <option value="Thursday">Thursday</option>
+                            <option value="Friday">Friday</option>
+                            <option value="Saturday">Saturday</option>
+                        </select>
+                    </span>
+                   
+                    <span asp-validation-for="DayOfWeek" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col">
+                <div class="form-outline">
+                    <label class="form-label" for="form3Example1">Start Time</label>
+                    <input asp-for="StartTime" required id="form3Example1" class="form-control" />
+
+                    <span asp-validation-for="StartTime" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-outline">
+                    <label class="form-label" for="form3Example1">End Time</label>
+                    <input asp-for="EndTime" required id="form3Example1" class="form-control" />
+                    <span asp-validation-for="EndTime" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <label class="form-label" for="form3Example3">Module</label>
+            <span> <select required asp-for="ModuleId" class="dropdown-item alert alert-primary small" asp-items=" ViewBag.ModuleId"></select></span>
+            <span asp-validation-for="ModuleId" class="text-danger"></span>
+
+        </div>
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-4">Submit</button>
+    </form>

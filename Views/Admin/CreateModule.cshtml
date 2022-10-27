@@ -1,0 +1,31 @@
+﻿@model ModuleModel
+@{
+    ViewData["Title"] = "Register Module";
+}
+<h4 class="text-center">Register Module</h4>
+<hr />
+@if (ViewBag.Data != null)
+{
+    <h4 class="text-center alert alert-success alert-heading">@ViewBag.Data</h4>
+}
+<form asp-action="CreateModule" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="row mb-4">
+        <div class="col">
+            <div class="form-outline">
+                <label class="form-label" for="form3Example1">Module Name</label>
+                <input asp-for="ModuleName" placeholder="Module Name" required id="form3Example1" class="form-control" />
+
+                <span asp-validation-for="ModuleName" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <div class="dropdown">
+        <label class="form-label" for="form3Example3">Course</label>
+        <span> <select required asp-for="CourseId" class="dropdown-item alert alert-primary small" asp-items="ViewBag.CourseId"></select></span>
+        <span asp-validation-for="CourseId" class="text-danger"></span>
+
+    </div>
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-block mb-4">Submit</button>
+</form>

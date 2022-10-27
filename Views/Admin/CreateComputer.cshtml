@@ -1,0 +1,32 @@
+﻿@model ComputerModel
+@{
+    ViewData["Title"] = "Computer";
+}
+<h4 class="text-center">Register Computer</h4>
+<hr />
+@if (ViewBag.Data != null)
+{
+    <h4 class="text-center alert alert-success alert-heading"> @ViewBag.Data</h4>
+}
+<form asp-action="CreateComputer" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="row mb-4">
+        <div class="col">
+            <div class="form-outline">
+                <label class="form-label" for="form3Example1">Computer No</label>
+                <input asp-for="ComputerNo" placeholder="Computer No" required id="form3Example1" class="form-control" />
+
+                <span asp-validation-for="ComputerNo" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <div class="dropdown">
+        <label class="form-label" for="form3Example3">Room</label>
+        <span> <select required asp-for="RoomId" class="dropdown-item alert alert-primary small" asp-items=" ViewBag.RoomId"></select></span>
+        <span asp-validation-for="RoomId" class="text-danger"></span>
+
+    </div>
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-block mb-4">Submit</button>
+</form>
+
