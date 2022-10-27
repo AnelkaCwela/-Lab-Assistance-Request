@@ -1,0 +1,187 @@
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.AssemblyInfoInputs.cache
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.AssemblyInfo.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.csproj.CoreCompileInputs.cache
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.RazorAssemblyInfo.cache
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.RazorAssemblyInfo.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\staticwebassets\SI-Request.StaticWebAssets.Manifest.cache
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\staticwebassets\SI-Request.StaticWebAssets.xml
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\scopedcss\bundle\SI-Request.styles.css
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.TagHelpers.input.cache
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.TagHelpers.output.cache
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.RazorCoreGenerate.cache
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\AccessDenied.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\ActiveAdmin.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\ActiveStudentAssistance.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\Admin.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\Error.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\InActiveAdmin.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\InActiveStudentAssistance.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\Index.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\StudentAssistance.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\Succeeded.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Computer.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Course.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateComputer.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateCourse.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateModule.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateRole.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateRoom.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditComputer.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditCourse.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditRole.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ListRole.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Module.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Room.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\StudentAssistance.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Task.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.RazorTargetAssemblyInfo.cache
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.RazorTargetAssemblyInfo.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.dll
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.pdb
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\SI-Request.exe
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\SI-Request.deps.json
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\SI-Request.runtimeconfig.json
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\SI-Request.runtimeconfig.dev.json
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\SI-Request.dll
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\SI-Request.pdb
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\SI-Request.Views.dll
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\SI-Request.Views.pdb
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.Views.pdb
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.csproj.CopyComplete
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.genruntimeconfig.cache
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewTask.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.csproj.AssemblyReference.cache
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ActiveRoom.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\InActiveRoom.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Assistance.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateCategory.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Task_.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewTask_.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\NormalTask.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PracticalTask.cshtml.g.cs
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\appsettings.Development.json
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\appsettings.json
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\SI-Request.exe
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\SI-Request.deps.json
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\SI-Request.runtimeconfig.json
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\SI-Request.runtimeconfig.dev.json
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\SI-Request.dll
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\SI-Request.pdb
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\SI-Request.Views.dll
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\SI-Request.Views.pdb
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+O:\Project\SI-Request\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.csproj.AssemblyReference.cache
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.GeneratedMSBuildEditorConfig.editorconfig
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.AssemblyInfoInputs.cache
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.AssemblyInfo.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.csproj.CoreCompileInputs.cache
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.MvcApplicationPartsAssemblyInfo.cache
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.RazorAssemblyInfo.cache
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.RazorAssemblyInfo.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\staticwebassets\SI-Request.StaticWebAssets.Manifest.cache
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\staticwebassets\SI-Request.StaticWebAssets.xml
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\scopedcss\bundle\SI-Request.styles.css
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.TagHelpers.input.cache
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.TagHelpers.output.cache
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.RazorCoreGenerate.cache
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\AccessDenied.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\ActiveAdmin.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\ActiveStudentAssistance.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\Admin.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\Error.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\InActiveAdmin.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\InActiveStudentAssistance.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\Index.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\StudentAssistance.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Account\Succeeded.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ActiveRoom.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Assistance.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Computer.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Course.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateCategory.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateComputer.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateCourse.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateModule.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateRole.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateRoom.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditComputer.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditCourse.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditRole.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\InActiveRoom.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ListRole.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Module.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\NormalTask.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\PracticalTask.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Room.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\StudentAssistance.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Task.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Task_.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewTask.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewTask_.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.RazorTargetAssemblyInfo.cache
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.RazorTargetAssemblyInfo.cs
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.Views.pdb
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.csproj.CopyComplete
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.dll
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.pdb
+O:\Project\SI-Request\obj\Debug\netcoreapp3.1\SI-Request.genruntimeconfig.cache
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\request.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\StudentRequest.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Profile.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Home\MyRequest.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Home\request.cshtml.g.cs
+C:\Users\s220006415\OneDrive - Nelson Mandela University\Project\SI-Request\obj\Debug\netcoreapp3.1\Razor\Views\Home\Student.cshtml.g.cs
